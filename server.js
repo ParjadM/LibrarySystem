@@ -71,7 +71,6 @@ function removeExtension(filename) {
   }
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////
-// add this to the final exam
 app.engine(".hbs", exphbs.engine({
     extname: ".hbs",
     defaultLayout: false,
