@@ -40,7 +40,8 @@ exphbs.create().handlebars.registerHelper('removeExt', function(filename) {
 
 // MongoDB client
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://minooeip:minooei89@cluster0.c7gpila.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+//password is not given!
+const uri = "mongodb+srv://minooeip:@cluster0.c7gpila.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri, {
     serverApi: {
         version: ServerApiVersion.v1,
